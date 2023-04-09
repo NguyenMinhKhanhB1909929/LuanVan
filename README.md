@@ -1,6 +1,6 @@
 ## README
 
-### Requires:
+### 1. Requires:
 - Next.js
 - TypeScript
 - Antd
@@ -8,11 +8,11 @@
 - Recoil
 - i18n
 
-### Spec:
+### 2. Spec:
 
 This is a website for SS staff/admin to book a meeting room.
 
-1. General:  
+a. General:  
 
 * Any user can view list booking request 
 
@@ -22,7 +22,7 @@ This is a website for SS staff/admin to book a meeting room.
 
 * Once request status changed to Reject/Approve, an email will be automatically send  to: its Creator. 
 
-2. Staff:  (same as Users TOPIC 1) 
+b. Staff:  (same as Users TOPIC 1) 
 
 * Any staff can create a booking request. Once booking request is created, its status will be: 
 
@@ -30,7 +30,7 @@ This is a website for SS staff/admin to book a meeting room.
   * Reject: if Admin manually reject any request OR request's endDate pass today (like out-dated request). 
   * Otherwise Approve, if Admin manually approve request  
 
-3. Admin:  
+c. Admin:  
 
 * Admin can do an action on a request: Reject/Approve. This action is irrevertible. 
 
@@ -50,6 +50,7 @@ a. Booking request:
 b. Request status (Pending, Approve, Reject) 
 
 c. Room (entity):  
+
 * Name 
 
 * ID 
